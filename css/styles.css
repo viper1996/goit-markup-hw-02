@@ -225,7 +225,13 @@ button:hover {
 
 .portfolio-button-link:focus {
     color: var(--white);
-    background-color: var(--iris);
+    background-color: var(--ocean);
+}
+
+.portfolio-button-link:hover {
+    color: var(--white);
+    background-color: var(--ocean);
+
 }
 
 .img-title {
