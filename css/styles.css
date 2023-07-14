@@ -61,11 +61,31 @@ button:hover {
     letter-spacing: 0.02em;
 }
 
+.navigation-link:hover {
+    color: var(--ocean);
+}
+
+.navigation-link:focus {
+    color: var(--ocean);
+}
+
+.address {
+    font-style: normal;
+}
+
 .header-address {
+    color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
+}
+
+.header-address:hover {
+    color: var(--ocean);
+}
+
+.header-address:focus {
+    color: var(--ocean);
 }
 
 /*main*/
