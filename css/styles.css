@@ -1,22 +1,32 @@
 /*main styles*/ 
 
+:root {
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --white: #FFF;
+    --cloud: #F4F4FD;
+    --slate: #434455;
+    --ocean: #404BBF;
+}
+
 body { 
     font-family: 'Roboto', sans-serif;
-    background-color: #FFF;
-    color: #2E2F42;
+    background-color: var(--white);
+    color: var(--slate);
 }
 
 a {
-    color: #2E2F42;
+    color: var(--navyblue);
 }
 
 a:active {
-    color:#404BBF;
+    color: var(--ocean);
 }
 
 button:hover {
-    background-color: #404BBF;
-    color: #FFF;
+    background-color: var(--ocean);
+    color: var(--white);
 }
 
 .link { 
@@ -30,6 +40,7 @@ button:hover {
 /*header*/
 
 .header-logo {
+    color: var(--navyblue);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -38,10 +49,11 @@ button:hover {
 }
 
 .header-logo-sp {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
 }
 
 .navigation-link {
+    color: var(--navyblue);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -49,7 +61,6 @@ button:hover {
 }
 
 .header-address {
-    color: var(--slate, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -59,27 +70,28 @@ button:hover {
 /*main*/
 
 .main-title {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 
 .button {
-    color: var(--white, #FFF);
+    color: var(--white);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     border: none;
 }
 
 .advantages-list-title {
+    color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -87,13 +99,13 @@ button:hover {
 }
 
 .advantages-list-description {
-    color: var(--slate, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .programs-title {
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -102,15 +114,17 @@ button:hover {
 }
 
 .team-title {
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    background: #F4F4FD;
+    background: var(--cloud);
 }
 
 .team-name {
+    color: var(--navyblue);
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -119,7 +133,6 @@ button:hover {
 }
 
 .team-list-description {
-    color: var(--slate, #434455);
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -129,38 +142,38 @@ button:hover {
 /*footer*/
 
 .footer-logo {
-    color: #F4F4FD;
+    color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    background-color: #2E2F42;
+    background-color: var(--navyblue);
 }
 
 .footer-logo-sp {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
 }
 
 .footer-description {
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #2E2F42;
+    background-color: var(--navyblue);
 }
 
 /*portfolio*/
 
 .portfolio-button-link {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: var(--cloud, #F4F4FD);
+    background: var(--cloud);
     border: none;
 }
 
@@ -172,7 +185,6 @@ button:hover {
 }
 
 .img-description {
-    color: var(--slate, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
