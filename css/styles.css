@@ -40,16 +40,17 @@ button:hover {
 /*header*/
 
 .header-logo {
-    color: var(--navyblue);
-    font-family: Raleway;
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .header-logo-sp {
-    color: var(--iris);
+    color: var(--navyblue);
 }
 
 .navigation-link {
@@ -142,17 +143,18 @@ button:hover {
 /*footer*/
 
 .footer-logo {
-    color: var(--cloud);
-    font-family: Raleway;
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     background-color: var(--navyblue);
+    text-transform: uppercase;
 }
 
 .footer-logo-sp {
-    color: var(--iris);
+    color: var(--cloud);
 }
 
 .footer-description {
