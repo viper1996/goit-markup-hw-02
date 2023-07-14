@@ -156,6 +156,7 @@ button:hover {
     line-height: 1.11;
     letter-spacing: 0.02em;
     background: var(--cloud);
+    text-transform: capitalize;
 }
 
 .team-list-item {
@@ -210,6 +211,7 @@ button:hover {
 /*portfolio*/
 
 .portfolio-button-link {
+    font-family: 'Roboto', sans-serif;
     color: var(--iris);
     text-align: center;
     font-size: 16px;
@@ -219,6 +221,11 @@ button:hover {
     cursor: pointer;
     background: var(--cloud);
     border: none;
+}
+
+.portfolio-button-link:focus {
+    color: var(--white);
+    background-color: var(--iris);
 }
 
 .img-title {
